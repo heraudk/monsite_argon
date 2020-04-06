@@ -2,7 +2,6 @@
  import Router from "vue-router";
  import AppHeader from "./layout/AppHeader";
  import AppFooter from "./layout/AppFooter";
- import Components from "./views/Components.vue";
  import Accueil from "./views/Accueil.vue";
  import Landing from "./views/Landing.vue";
  import Login from "./views/Login.vue";
@@ -13,15 +12,7 @@
 
  export default new Router({
      linkExactActiveClass: "active",
-     routes: [{
-             path: "/components",
-             name: "components",
-             components: {
-                 header: AppHeader,
-                 default: Components,
-                 footer: AppFooter
-             }
-         },
+     routes: [
          {
              path: "/",
              name: "accueil",
