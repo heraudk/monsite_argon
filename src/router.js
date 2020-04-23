@@ -14,7 +14,7 @@
      linkExactActiveClass: "active",
      routes: [
          {
-             path: "/",
+             path: "/accueil",
              name: "accueil",
              components: {
                  header: AppHeader,
