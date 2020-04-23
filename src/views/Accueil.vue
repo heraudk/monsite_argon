@@ -22,8 +22,7 @@
                         </b-carousel-slide>
                     </b-carousel>
             <p></p>
-            <!-- <carousel2></carousel2>
-            <p></p> -->
+
             <b-container class="bv-example-row">                
                 <b-row>
                     <b-col cols="12" md="4" class="text-center">
@@ -84,7 +83,6 @@
 </template>
 
 <script>
-// import Carousel2 from "./components/Carousel2";
 import { BCarousel } from "bootstrap-vue/esm/components/carousel/carousel";
 import { BCarouselSlide } from "bootstrap-vue/esm/components/carousel/carousel-slide";
 import { BCard } from "bootstrap-vue/esm/components/card";
@@ -92,7 +90,6 @@ import { BContainer, BCol, BRow } from "bootstrap-vue/esm/components/layout";
 
 export default {
   components: {
-    Carousel2,
     BCarousel,
     BCarouselSlide,
     BCard,
