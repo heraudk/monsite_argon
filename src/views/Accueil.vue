@@ -1,6 +1,6 @@
 <template>
-    <!-- <section class="section section-lg section-shaped overflow-hidden my-0"> -->
-    <section>    
+    <!-- <section class="section section-lg section-shaped overflow-hidden my-0"> -->   
+    <section>   
                     <b-carousel id="carousel1"
                                 controls
                                 indicators>
@@ -47,6 +47,8 @@
                         <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>                       
                     </b-col>              
                 </b-row>
+
+                <p>{{ message }}</p>
 
                 <hr class="featurette-divider">
                 <div class="row featurette">
@@ -96,6 +98,11 @@ export default {
     BContainer,
     BCol,
     BRow
+  },
+  data () {
+    return {
+        message: 'Hello vue.js'
+    }
   }
 };
 </script>
