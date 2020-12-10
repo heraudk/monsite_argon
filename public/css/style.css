@@ -1,0 +1,34 @@
+
+@font-face
+{
+    font-family: "Neon80s";
+    src: url("../font/Neon.ttf") format('truetype');
+}
+
+
+body
+{
+background-image:url(img/brand/fond\ ecran\ ok\ html\ png.png);
+background-repeat: no-repeat;
+background-size: cover;
+font-family: "Neon80s";
+padding-bottom: 3rem;
+font-size: 24px;
+color: white;
+}
+
+
+
+.navbar 
+{
+    background-color: #ffc90e; 
+}
+
+
+
+
+
+iframe
+{
+    margin-top: 10px;
+}
