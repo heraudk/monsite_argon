@@ -14,18 +14,23 @@
 
                 <div class="col-md-7">
                     <h2 class="featurette-heading"> <span class="text-muted"></span></h2>
-                    <p class="lead">Notre agence web accompagne nos clients dans la <font>création 
-              de site internet</font> ou la <font>refonte de votre site</font> web:
-              - gestion de projet
-              - audit technique
-              - l'identité visuelle à votre image
-              - design & ergonomie
-              - conception graphique
-              - expérience client
-             - développement web sur-mesure
-              - référencement naturel
-              - référencement payant
-              - média sociaux </p>
+<p class="lead">Notre agence web accompagne nos clients dans la <font>création 
+de site internet</font> ou la <font>refonte de votre site</font> web:
+<pre>
+- gestion de projet
+- audit technique
+- l'identité visuelle à votre image
+- design & ergonomie
+- conception graphique
+- expérience client
+- développement web sur-mesure
+- référencement naturel
+- référencement payant
+- média sociaux
+ </pre>
+</p>
+
+
                 </div>
 
                 <div class="col-md-5">
@@ -65,12 +70,47 @@
 
 
 
- <div class="video"> <iframe width="560" height="315" src="https://www.youtube.com/embed/56NfqCe9Uc4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>             </div>
+ <div class="video"> 
+ <iframe width="350" height="315" src="https://www.youtube.com/embed/56NfqCe9Uc4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
+ </div>
              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
                 
             </b-container>
+
+
     </section>  
+
+
+
+    
 </template>
+
+
+
+
+
 
 <script>
 import { BCarousel } from "bootstrap-vue/esm/components/carousel/carousel";

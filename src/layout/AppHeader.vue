@@ -16,19 +16,19 @@
         
        
 
-        <b-navbar-brand href="#">
-            <img src="img/brand/LOGOOO PAINT JAUNE PEIT- CopieBETA.png" style="width:232px; height:100px;" alt="Mon site">
+        <b-navbar-brand><router-link to="/"><img src="img/brand/LOGOOO PAINT JAUNE PEIT- CopieBETA.png" style="width:232px; height:100px;" alt="Mon site"></router-link>
+           
         </b-navbar-brand>
 
         <b-navbar-toggle  style="color:black;" target="nav-collapse">☰</b-navbar-toggle>
 
         <b-collapse id="nav-collapse" is-nav>
             <b-navbar-nav>
-                <b-nav-item href="#">Expertise</b-nav-item>
-                <b-nav-item href="#">Notre histoire</b-nav-item>
-                <b-nav-item href="#" disabled>Espace client</b-nav-item>
+                 <b-nav-item><router-link to="/Expertise">EXPERTISE</router-link></b-nav-item>
+                  <b-nav-item><router-link to="/Notrehistoire">NOTRE HISTOIRE</router-link></b-nav-item>
+                   <b-nav-item><router-link to="/espaceclient">ESPACE CLIENT</router-link></b-nav-item>
             </b-navbar-nav>
-
+     
             <!-- Right aligned nav items -->
            
         </b-collapse>
@@ -36,6 +36,15 @@
  
  
 </div>
+
+
+
+ 
+
+
+
+
+
 
 </template>
 

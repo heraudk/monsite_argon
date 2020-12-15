@@ -8,6 +8,10 @@
  import Login from "./views/Login.vue";
  import Register from "./views/Register.vue";
  import Profile from "./views/Profile.vue";
+ import espaceclient from "./views/espaceclient.vue";
+ import formulaire from "./views/formulaire.vue";
+ 
+
 
  Vue.use(Router);
 
@@ -66,8 +70,38 @@
                  default: Profile,
                  footer: AppFooter
              }
-         }
+         },
+         {
+            path: "/espaceclient",
+            name: "espaceclient",
+            components: {
+                header: AppHeader,
+                default: espaceclient,
+                footer: AppFooter
+            }
+        },
+        {
+            path: "/formulaire",
+            name: "formulaire",
+            components: {
+                header: AppHeader,
+                default: formulaire,
+                footer: AppFooter
+            }
+        }
+      
      ],
+
+
+
+
+
+
+
+
+
+
+
      scrollBehavior: to => {
          if (to.hash) {
              return { selector: to.hash };

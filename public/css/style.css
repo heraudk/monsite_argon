@@ -7,19 +7,107 @@
 
 
 
-
-
-
-.navbar 
+font
 {
-    background-color: #ffc90e; 
+  color: #f47e0b;
 }
 
 
 
 
 
-iframe
+.navbar 
 {
-    margin-top: 10px;
+    background-color: #ffc90e; 
+    
+}
+#nav-collapse
+{
+background-color:  #ffc90e;
+}
+
+
+
+.nav-link
+{
+    padding: 20px;
+    margin: 2px;
+    background: #f47e0b;
+    border-radius: 8px;
+}
+
+
+.video
+{
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.inscription
+{
+  margin-left: 11px;
+}
+
+
+.inscription button
+{
+  margin-left: 15px;
+  color: black;
+  background-color: #f47e0b;
+  font-size: 20px;
+}
+
+.form-check-label
+{
+  margin-left: 38px;
+}
+
+#exampleCheck1
+{
+  margin-left: 11px;
+}
+
+
+
+
+.formulaire
+{
+  margin-left: 11px;
+  margin-right: 11px;
+}
+
+
+.formulaire button
+{
+  margin-left: 15px;
+  color: black;
+  background-color: #f47e0b;
+  font-size: 20px;
+}
+
+
+
+
+
+.col-lg-6 
+{
+    display: flex;
+    flex-direction: row;
+   
 }

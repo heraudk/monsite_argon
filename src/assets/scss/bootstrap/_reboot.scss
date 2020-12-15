@@ -196,7 +196,7 @@ sup { top: -.5em; }
 //
 
 a {
-  color: $link-color;
+  color: black;
   text-decoration: $link-decoration;
   background-color: transparent; // Remove the gray background on active links in IE 10.
   -webkit-text-decoration-skip: objects; // Remove gaps in links underline in iOS 8+ and Safari 8+.
@@ -236,7 +236,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: $font-family-monospace;
+  font-family: "Neon80s";
   font-size: 1em; // Correct the odd `em` font sizing in all browsers.
 }
 

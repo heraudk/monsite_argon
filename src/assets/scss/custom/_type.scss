@@ -12,7 +12,8 @@ p {
 	line-height: $paragraph-line-height;
 	margin-top: 1.5rem;
 
-	+ .btn-wrapper {
+	+ .btn-wrapper 
+	{
 		margin-top: 3rem;
 	}
 }
