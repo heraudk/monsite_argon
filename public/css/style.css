@@ -41,7 +41,7 @@ background-color:  #ffc90e;
 {
     display: block;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 
@@ -104,10 +104,64 @@ background-color:  #ffc90e;
 
 
 
-
-.col-lg-6 
+.row 
 {
-    display: flex;
-    flex-direction: row;
-   
+  display: flex;
+  justify-content: flex-end;
+  
+
 }
+
+.col-lg-6 a
+{
+  margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1050px) and (max-width:1500px)
+{
+ 
+
+  iframe
+      {
+        width: 200%;
+      }
+
+}
+
+
+
+
+@media screen and (min-width:1501px) 
+{
+ 
+
+  iframe
+      {
+        width: 300%;
+        height: auto;
+      }
+
+}
+
+

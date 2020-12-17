@@ -12,7 +12,7 @@
                 <hr class="featurette-divider">
                 <div class="row featurette">
 
-                <div class="col-md-7">
+                <div class="col-md-12 col-lg-7">
                     <h2 class="featurette-heading"> <span class="text-muted"></span></h2>
 <p class="lead">Notre agence web accompagne nos clients dans la <font>création 
 de site internet</font> ou la <font>refonte de votre site</font> web:
@@ -33,7 +33,7 @@ de site internet</font> ou la <font>refonte de votre site</font> web:
 
                 </div>
 
-                <div class="col-md-5">
+                <div class="col-md-12 col-lg-5">
                     <img src="img/brand/unnamed (1).jpg" width="100%" height="100%" alt="">
                 </div>
                 </div>
@@ -43,7 +43,7 @@ de site internet</font> ou la <font>refonte de votre site</font> web:
 
                 <hr class="featurette-divider">        
                 <div class="row featurette">
-                <div class="col-md-7 order-md-2">
+                <div class="col-md-12 col-lg-7 order-2">
                     <h2 class="featurette-heading"> <span class="text-muted"></span></h2>
                     <p class="lead">
               <br> vous confiez la création de votre site internet à une agence web ?
@@ -60,7 +60,7 @@ de site internet</font> ou la <font>refonte de votre site</font> web:
                </p>
 
                 </div>
-                <div class="col-md-5 order-md-1">
+                <div class="col-md-12 col-lg-5 ">
                     <img src="img/brand/mathilde.jpg" width="100%" height="100%" alt="">
                 </div>
                 </div>       

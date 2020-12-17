@@ -18,7 +18,7 @@
                 </div>
             </div>
         </div> -->
-        <div class="container">
+        <div class="logo">
             <div class="row row-grid align-items-center my-md">
                
                 <div class="col-lg-6 text-lg-center btn-wrapper">
